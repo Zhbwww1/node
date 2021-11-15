@@ -1,13 +1,25 @@
-使用前配置命令
+#使用前配置命令
 	git config --list   查看配置信息
 	git config --global user.name ** 配置用户名
 	git config --global user.email ** 配置邮箱
-git使用步骤
+#git使用步骤
 	git init 初始化git创库
 	git status 查看git管理文件夹内的文件状态（git add 添加的文件 为git管理文件）
-	git add ** 追踪文件（添加文件到git暂存目录，以管理该文件，git status可查看是否被管理）
+	git add ** 追踪文件（添加文件到git暂存目录，以管理该文件，git status可查看是否被	管理）
 	git commit -m ** 提交追踪的文件
 	git log 查看提交日记
 	git checkout ** 将文件恢复到追踪时的状态（用暂存区文件覆盖工作目录文件）
 	git rm --cached ** 将追踪文件移除出暂存区（不在追踪文件）
-	git reset --hard commitid 用指定提交的id对应提交状态的文件覆盖工作目录和暂存区文件
+	git reset --hard commitid 用指定提交的id对应提交状态的文件覆盖工作目录和暂存区	文件
+#git分支的使用
+	git branch 查看当前处于的分支
+	git branch 分支名 创建分支
+	git branch -d 分支名 删除分支
+	git merge 来源分支 合并当前分支和来源分支
+	git checkout 分支名 切换到对应分支
+#
+
+
+
+
+	
