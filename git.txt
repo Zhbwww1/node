@@ -6,4 +6,6 @@ git使用步骤
 	git init 初始化git创库
 	git status 查看git管理文件夹内的文件状态（git add 添加的文件 为git管理文件）
 	git add ** 追踪文件（添加文件到git暂存目录，以管理该文件，git status可查看是否被管理）
-
+	git commit -m ** 提交追踪的文件
+	git log 查看提交日记
+	git checkout ** 将文件恢复到追踪时的状态
