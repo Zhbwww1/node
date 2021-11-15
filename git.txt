@@ -4,5 +4,6 @@
 	git config --global user.email ** 配置邮箱
 git使用步骤
 	git init 初始化git创库
-	git status 查看git管理文件夹内的文件状态
+	git status 查看git管理文件夹内的文件状态（git add 添加的文件 为git管理文件）
+	git add ** 追踪文件（添加文件到git暂存目录，以管理该文件，git status可查看是否被管理）
 
