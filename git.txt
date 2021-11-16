@@ -17,7 +17,9 @@
 	git branch -d 分支名 删除分支
 	git merge 来源分支 合并当前分支和来源分支
 	git checkout 分支名 切换到对应分支
-#
+#git切换分支时存储临时改动
+	git stash 存储临时改动到git剪切板
+	git stash pop 恢复改动
 
 
 
