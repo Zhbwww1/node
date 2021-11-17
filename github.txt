@@ -1,0 +1,8 @@
+#github使用
+	1.使用git创建本地仓库
+	2.创建远程github仓库
+	git push 远程仓库地址 分支名称
+	git push 远程仓库地址别名 分支名称
+	git push -u 远程仓库地址别名 分支名称
+	(加上-u后缀会记住远程仓库地址和分支名称，下次推送时直接 git push)
+	git remote add 远程仓库地址别名 远程仓库地址
