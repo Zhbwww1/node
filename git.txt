@@ -10,7 +10,7 @@
 	git log 查看提交日记
 	git checkout ** 将文件恢复到追踪时的状态（用暂存区文件覆盖工作目录文件）
 	git rm --cached ** 将追踪文件移除出暂存区（不在追踪文件）
-	git reset --hard commitid 用指定提交的id对应提交状态的文件覆盖工作目录和暂存区		文件
+	git reset --hard （***commitid***） 用指定提交的id对应提交状态的文件覆盖工作目	录和暂存区文件
 #git分支的使用
 	git branch 查看当前处于的分支
 	git branch 分支名 创建分支
