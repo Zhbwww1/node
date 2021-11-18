@@ -1,3 +1,17 @@
 #解决冲突
   两个人同时修改了同一个文件的同一个地方就会发生冲突。冲突需要人为解决。
   先向远程仓库推送的人才能推送成功，后推送的人不能推送（因为远程高于本地版本）。
+
+#团队协同开发 
+	主github账号setting=>manage access添加成员
+
+#跨团队开发
+	fork 他人github仓库到自己github仓库
+	clone自己gihub仓库到本地，修改后push到自己github仓库
+	pull request 等待他人处理
+
+
+#ssh免密登录
+	ssh-keygen命令生成公钥和密钥（window系统用户目录下.ssh文件）私钥留在本地
+公钥传到github网站 （_rsa表示非对称加密方式）
+	复制生成的id_rsa.pub文件内容 粘贴到 gihub setting SSHandGPGkeys newsshkey
