@@ -22,3 +22,7 @@
 	git忽略清单文件名称：  
 		.gitignore文件 
 	将不想git管理的文件夹和文件名写在.gitignore文件中	
+
+
+#添加仓库的详细说明
+	工作目录下建立readme.md文件
