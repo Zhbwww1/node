@@ -20,7 +20,8 @@
 #git切换分支时存储临时改动
 	git stash 存储临时改动到git剪切板
 	git stash pop 恢复改动
-
+#其他
+	git add . (git add . 后不带文件名表示将工作目录中的文件全部添加到暂存区)
 
 
 
